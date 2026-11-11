@@ -1,0 +1,12 @@
+[project]
+name = "sta-benchmarks"
+version = "0.1.0"
+description = "Figures and tables for subtomogram averaging benchmarks on EMPIAR-10164 and EMPIAR-10491"
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.9",
+    "numpy>=2.0",
+]
+
+[tool.uv]
+package = false

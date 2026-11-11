@@ -1,0 +1,14 @@
+stage,step,jobs,seconds,gpus,gpu_seconds,note
+Preprocessing,Import,job 2,8,0,0,
+Preprocessing,"Motion, CTF, tilts",jobs 3–5,619,0,0,"includes interactive steps, not timed"
+Alignment and tomograms,"Alignment, tomograms",jobs 6–7,4207,1,3965,
+Picking,Template-matching picks,job 8,1560,4,,"pytom-match-pick outside RELION: 26 min wall time, 37 tasks on up to 4 GPUs at once"
+Refinement,Bin 4,jobs 9–11,10893,2,21222,
+Refinement,Bin 2,"jobs 12–14, 16–17",7988,2,14294,
+Classification or selection,3D classification,"jobs 15, 22",3322,0,0,
+Refinement,Bin 1,jobs 23–26,22689,2,42686,
+"Refinement cycle (CTF refinement, polishing, refinement)",Cycle 1,jobs 30–41,63268,2,72442,
+"Refinement cycle (CTF refinement, polishing, refinement)",Cycle 2,jobs 42–51,55968,2,63216,
+"Refinement cycle (CTF refinement, polishing, refinement)",Cycle 3,jobs 52–61,55508,2,57198,
+"Refinement cycle (CTF refinement, polishing, refinement)",Cycle 4,jobs 62–71,67334,2,77328,
+"Refinement cycle (CTF refinement, polishing, refinement)",Cycle 5,jobs 72–81,59918,2,68942,

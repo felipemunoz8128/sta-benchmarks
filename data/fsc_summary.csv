@@ -1,0 +1,7 @@
+row,program,reported_resolution_A,bfactor_A2,last_shell_at_or_above_0.143_A,interpolated_0.143_A,nyquist_A
+A,relion_postprocess,3.323077,-77.31857,3.323077,3.2874,2.700000
+B,M (species FSC),2.76,,2.771298,2.7572,1.588427
+Brelion,relion_postprocess,2.771298,-32.03463,2.771298,2.7488,1.578800
+BrelionMmask,relion_postprocess,2.631333,-26.86081,2.631333,2.6092,1.578800
+C,relion_postprocess,2.635852,-76.55255,2.635852,2.6247,1.668000
+D,relion_postprocess,2.511812,-52.33684,2.511812,2.4831,1.668000

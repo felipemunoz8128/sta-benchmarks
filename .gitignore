@@ -1,0 +1,18 @@
+# Maps and particle stacks are published as release assets, not in git.
+*.mrc
+*.mrcs
+*.map
+*.map.gz
+*.mrc.gz
+
+# Raw processing outputs never belong here (they contain local paths).
+*.star
+*.log
+run.out
+run.err
+
+# Python and OS clutter
+__pycache__/
+*.pyc
+.DS_Store
+.venv/

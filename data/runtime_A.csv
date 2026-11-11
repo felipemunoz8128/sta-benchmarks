@@ -1,0 +1,16 @@
+stage,step,jobs,seconds,gpus,gpu_seconds,note
+Preprocessing,Import,job 2,2,0,0,
+Preprocessing,"Motion, CTF, tilts",jobs 3–5,414,0,0,"includes interactive steps, not timed"
+Alignment and tomograms,"Alignment, tomograms",jobs 6–7,209,0,0,
+Alignment and tomograms,Denoising,jobs 9–10,6339,1,6339,
+Picking,Sphere picking,job 11,,0,,"interactive, not timed"
+Refinement,Bin 6,jobs 12–14,15142,2,24992,
+Refinement,Bin 2,jobs 15–18,19283,2,36954,
+Classification or selection,3D classification,jobs 19–20,10240,2,20480,"includes interactive steps, not timed"
+Refinement,Bin 1,jobs 21–28,7630,2,12316,
+"Refinement cycle (CTF refinement, polishing, refinement)",Cycle 1,jobs 29–38,17639,2,12512,
+"Refinement cycle (CTF refinement, polishing, refinement)",Cycle 2,jobs 39–48,21207,2,18720,
+"Refinement cycle (CTF refinement, polishing, refinement)",Cycle 3,jobs 49–58,19844,2,16610,
+"Refinement cycle (CTF refinement, polishing, refinement)",Cycle 4,jobs 59–68,17983,2,12642,
+"Refinement cycle (CTF refinement, polishing, refinement)",Cycle 5,jobs 69–78,20366,2,16408,
+Refinement,Final map,jobs 81–83,656,0,0,

@@ -1,0 +1,23 @@
+stage,step,jobs,seconds,gpus,gpu_seconds,note
+Preprocessing,Settings files,,,1,,"seconds, not timed"
+Preprocessing,Motion and CTF,,321,1,321,
+Preprocessing,Import,,,1,,"seconds, not timed"
+Alignment and tomograms,Alignment,,326,1,326,
+Alignment and tomograms,Defocus hand,,,1,,"seconds, not timed"
+Alignment and tomograms,Tilt-series CTF,,105,1,105,
+Alignment and tomograms,Tomograms,,52,1,52,
+Picking,Template matching,,87,1,87,
+Picking,Threshold,,1,1,1,
+Picking,Export,,163,1,163,
+Refinement,Initial model,,8921,1,8921,
+Refinement,Refine3D,,3420,1,3420,
+Refinement,Mask for M,,,0,,"seconds, not timed"
+M refinement,M setup,,398,1,398,
+M refinement,M step 0,,424,1,424,
+M refinement,M step 1,,686,1,686,
+M refinement,M step 2,,695,1,695,
+M refinement,M step 3,,447,1,447,
+M refinement,M step 4,,793,1,793,
+M refinement,M step 5,,449,1,449,
+M refinement,M step 6,,480,1,480,
+M refinement,M step 7,,782,1,782,
